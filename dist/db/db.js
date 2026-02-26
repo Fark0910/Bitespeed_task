@@ -13,6 +13,7 @@ const pooloption = {
     password: process.env.sqlDB_PASS,
     database: process.env.sqlDB_NAME,
     port: Number(process.env.sqlDB_port),
+    ssl: { rejectUnauthorized: false },
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0

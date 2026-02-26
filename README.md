@@ -178,7 +178,7 @@ Invoke-RestMethod -Method POST http://localhost:8080/identify `
 
 Update production URL and test using:
 
-POST https://your-app.up.railway.app/identify
+POST [https://bitespeed-kjif.onrender.com/identify](https://bitespeed-kjif.onrender.com/identify)
 
 ---
 
